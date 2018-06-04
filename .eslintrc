@@ -1,0 +1,26 @@
+{
+    "parser": "babel-eslint",
+    "rules": {
+      "indent": [
+          2,
+          "tab",
+          {"SwitchCase": 1}
+      ],
+      "quotes": [
+          2,
+          "double",
+          { "allowTemplateLiterals": true }
+      ],
+      "semi": [
+          2,
+          "always"
+      ],
+      "no-console": "off"
+    },
+    "env": {
+        "es6": true,
+        "node": true,
+        "mocha": true
+    },
+    "extends": "eslint:recommended"
+}

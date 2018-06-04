@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/deltatre-webplu/nodejs-es6-template/issues"
   },
-  "homepage": "https://github.com/deltatre-webplu/nodejs-es6-template#readme"
+  "homepage": "https://github.com/deltatre-webplu/nodejs-es6-template#readme",
+  "dependencies": {
+    "eslint": "^4.19.1"
+  }
 }
