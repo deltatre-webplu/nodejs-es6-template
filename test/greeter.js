@@ -1,13 +1,19 @@
 import { assert } from "chai";
 import { Greeter } from "./../src/greeter";
 
-it("Should return expected message", function() {
-	// ARRANGE
-	const target = new Greeter("Enrico");
+describe("Greeter", function() {
 
-	// ACT
-	const result = target.getMessage();
+	this.timeout(20000);
+	this.slow(30000);
 
-	// ASSERT
-	assert.strictEqual(result, "Hello Enrico");
+	it("Should return expected message", function() {
+		// ARRANGE
+		const target = new Greeter("Enrico");
+	
+		// ACT
+		const result = target.getMessage();
+	
+		// ASSERT
+		assert.strictEqual(result, "Hello Enrico");
+	});
 });
