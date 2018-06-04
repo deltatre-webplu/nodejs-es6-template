@@ -4,7 +4,8 @@
   "description": "Template for Node applications with ES6",
   "main": "index.js",
   "scripts": {
-    "develop": "babel src -w -d dist"
+    "develop": "babel src -w -d dist",
+    "test": "mocha --recursive --require babel-core/register ./test/"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,8 @@
     "babel-core": "^6.26.3",
     "babel-eslint": "^8.2.3",
     "babel-preset-env": "^1.7.0",
-    "eslint": "^4.19.1"
+    "chai": "^4.1.2",
+    "eslint": "^4.19.1",
+    "mocha": "^5.2.0"
   }
 }

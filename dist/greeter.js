@@ -4,12 +4,12 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 class Greeter {
-	constructor(message) {
-		this.message = message;
+	constructor(name) {
+		this.name = name;
 	}
 
-	sayHello() {
-		console.log(this.message);
+	getMessage() {
+		return `Hello ${this.name}`;
 	}
 }
 exports.Greeter = Greeter;

@@ -1,9 +1,9 @@
 export class Greeter {
-	constructor(message) {
-		this.message = message;
+	constructor(name) {
+		this.name = name;
 	}
 
-	sayHello() {
-		console.log(this.message);
+	getMessage() {
+		return `Hello ${this.name}`;
 	}
 }
