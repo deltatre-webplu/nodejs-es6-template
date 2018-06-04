@@ -21,7 +21,9 @@
     "url": "https://github.com/deltatre-webplu/nodejs-es6-template/issues"
   },
   "homepage": "https://github.com/deltatre-webplu/nodejs-es6-template#readme",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
+    "babel-eslint": "^8.2.3",
     "eslint": "^4.19.1"
   }
 }
