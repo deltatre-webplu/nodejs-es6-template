@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-es6-template",
+  "version": "1.0.0",
+  "description": "Template for Node applications with ES6",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deltatre-webplu/nodejs-es6-template.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "Javascript",
+    "ES6"
+  ],
+  "author": "enrico massone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deltatre-webplu/nodejs-es6-template/issues"
+  },
+  "homepage": "https://github.com/deltatre-webplu/nodejs-es6-template#readme"
+}
