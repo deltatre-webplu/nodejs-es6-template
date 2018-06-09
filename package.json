@@ -6,7 +6,8 @@
   "scripts": {
     "develop": "babel src -w -d dist",
     "test": "mocha --recursive --require babel-core/register ./test/",
-    "start": "node dist/index"
+    "start": "node dist/index",
+    "start-dev": "nodemon ./dist/index.js -e js"
   },
   "repository": {
     "type": "git",
@@ -33,7 +34,8 @@
     "babel-preset-env": "^1.7.0",
     "chai": "^4.1.2",
     "eslint": "^4.19.1",
-    "mocha": "^5.2.0"
+    "mocha": "^5.2.0",
+    "nodemon": "^1.17.5"
   },
   "engines": {
     "node": ">=6.9.1"
